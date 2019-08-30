@@ -20,14 +20,39 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_main" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
+        android:id="@+id/convert_button"
+        android:layout_width="148dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
+        android:layout_gravity="bottom|center"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:baselineAlignBottom="false"
+        android:clickable="false"
+        app:backgroundTint="#000000"
+        app:fabSize="auto"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        app:useCompatPadding="false" />
+
+    <EditText
+        android:id="@+id/text_input"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Input Here"
+        android:inputType="number"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center"
+        android:autofillHints="" />
+
+    <Spinner
+        android:layout_width="141dp"
+        android:layout_height="69dp">
+
+    </Spinner>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
