@@ -41,12 +41,12 @@
         android:id="@+id/text_input"
         android:layout_width="353dp"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:gravity="center"
-        android:hint="Enter Input Here"
+        android:hint="Enter Input Here (CM)"
         android:inputType="number"
         app:layout_anchor="@+id/include"
-        app:layout_anchorGravity="center"
-        android:autofillHints="" />
+        app:layout_anchorGravity="center" />
 
     <Spinner
         android:layout_width="141dp"

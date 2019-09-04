@@ -12,7 +12,7 @@
         android:id="@+id/conversion_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Unit Converter"
+        android:text="CM to IN Converter"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.222" />
 
     <TextView
-        android:id="@+id/output"
+        android:id="@+id/text_output"
         android:layout_width="282dp"
         android:layout_height="82dp"
         android:layout_gravity="center"
