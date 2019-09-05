@@ -14,6 +14,9 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,10 +40,18 @@ public class MainActivity extends AppCompatActivity {
                 int ft_val = (int) in_val/12;
                 double ft_remain_in = in_val - (ft_val*12);
 
-                text_output.setText(String.valueOf(df2.format(in_val)) + " inches" + "\n" + ft_val + " feet " + ft_remain_in + " in");
+                text_output.setText(String.valueOf(round(in_val,2)) + " inches" + "\n" + ft_val + " feet " + String.valueOf(round(ft_remain_in,2)) + " in");
 
             }
         });
+    }
+
+    public static double round(double value, int places) {
+        if (places < 0) throw new IllegalArgumentException();
+
+        BigDecimal bd = BigDecimal.valueOf(value);
+        bd = bd.setScale(places, RoundingMode.HALF_UP);
+        return bd.doubleValue();
     }
 
     @Override
