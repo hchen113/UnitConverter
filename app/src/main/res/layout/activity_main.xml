@@ -36,14 +36,14 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:gravity="center"
-        android:hint="Enter Input Here (CM)"
+        android:hint="enter input here (cm)"
         android:inputType="number"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="center" />
 
     <Spinner
-        android:layout_width="141dp"
-        android:layout_height="69dp">
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
 
     </Spinner>
 
@@ -52,17 +52,9 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
+
+        app:layout_anchorGravity="center"
         app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-    <Button
-        android:id="@+id/unit_switch"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:background="#FFFFFF"
-        app:srcCompat="@android:drawable/ic_menu_send">
-
-    </Button>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

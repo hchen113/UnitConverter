@@ -12,7 +12,7 @@
         android:id="@+id/conversion_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CM to IN Converter"
+        android:text="centimeter to inches"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
