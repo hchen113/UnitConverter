@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Unit Converter</string>
     <string name="action_settings">Settings</string>
+
+    <string-array name="conversions">
+        <item>centimeter to inches</item>
+        <item>inches to centimeter</item>
+    </string-array>
+
 </resources>

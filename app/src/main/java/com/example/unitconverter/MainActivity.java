@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.math.BigDecimal;
@@ -31,16 +32,31 @@ public class MainActivity extends AppCompatActivity {
         final EditText text_input = findViewById(R.id.text_input);
         FloatingActionButton convert_button = findViewById(R.id.convert_button);
         final TextView text_output = findViewById(R.id.text_output);
+        final Spinner unit_spinner = findViewById(R.id.spinner);
 
         convert_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                double cm_val = Double.parseDouble(text_input.getText().toString());
-                double in_val = cm_val/2.54;
-                int ft_val = (int) in_val/12;
-                double ft_remain_in = in_val - (ft_val*12);
+                final String selected = unit_spinner.getSelectedItem().toString();
 
-                text_output.setText(String.valueOf(round(in_val,2)) + " inches" + "\n" + ft_val + " feet " + String.valueOf(round(ft_remain_in,2)) + " in");
+                if (selected.equals("centimeter to inches") == true){
+                    double cm_val = Double.parseDouble(text_input.getText().toString());
+                    double in_val = cm_val/2.54;
+                    int ft_val = (int) in_val/12;
+                    double ft_remain_in = in_val - (ft_val*12);
+
+                    text_output.setText(String.valueOf(round(in_val,2)) + " inches" + "\n" + ft_val + " feet " + String.valueOf(round(ft_remain_in,2)) + " in");
+                }
+
+                else if(selected.equals("inches to centimeter") == true){
+                    double in_val = Double.parseDouble(text_input.getText().toString());
+                    double cm_val = in_val*2.54;
+                    int meter_val = (int) cm_val / 100;
+                    double meter_remain_cm = cm_val - (meter_val*100);
+
+                    text_output.setText(String.valueOf(round(cm_val,2)) + "centimeters" + "\n" + meter_val + " meter(s) " + String.valueOf(round(meter_remain_cm,2)) + "centimeters");
+                }
+
 
             }
         });
