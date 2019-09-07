@@ -1,0 +1,265 @@
+commit c593e1aeebc668491268276ca82dd42fcda92de3
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Fri Sep 6 23:13:17 2019 -0400
+
+    Just screenshots
+
+ .DS_Store                                          | Bin 0 -> 6148 bytes
+ .../5.4.1/executionHistory/executionHistory.bin    | Bin 1743300 -> 1743300 bytes
+ .../5.4.1/executionHistory/executionHistory.lock   | Bin 17 -> 17 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.bin            | Bin 140683 -> 140683 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.lock           | Bin 17 -> 17 bytes
+ .gradle/buildOutputCleanup/buildOutputCleanup.lock | Bin 17 -> 17 bytes
+ .gradle/buildOutputCleanup/outputFiles.bin         | Bin 20963 -> 23915 bytes
+ .idea/caches/build_file_checksums.ser              | Bin 535 -> 535 bytes
+ .idea/caches/gradle_models.ser                     | Bin 151588 -> 151596 bytes
+ .../Screen Shot 2019-09-06 at 11.11.29 PM.png      | Bin 0 -> 319477 bytes
+ .../Screen Shot 2019-09-06 at 11.11.51 PM.png      | Bin 0 -> 323703 bytes
+ .../Screen Shot 2019-09-06 at 11.12.12 PM.png      | Bin 0 -> 268551 bytes
+ 12 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 5e9e478c2939c70861f805c0c60d7d2c04f60eb6
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Fri Sep 6 23:07:18 2019 -0400
+
+    Add Spinner to have choices between inches to cm and vice versa
+
+ .../5.4.1/executionHistory/executionHistory.bin    | Bin 1554137 -> 1743300 bytes
+ .../5.4.1/executionHistory/executionHistory.lock   | Bin 17 -> 17 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.bin            | Bin 140533 -> 140683 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.lock           | Bin 17 -> 17 bytes
+ .gradle/5.4.1/javaCompile/classAnalysis.bin        | Bin 114841 -> 194780 bytes
+ .gradle/5.4.1/javaCompile/javaCompile.lock         | Bin 17 -> 17 bytes
+ .gradle/buildOutputCleanup/buildOutputCleanup.lock | Bin 17 -> 17 bytes
+ .idea/workspace.xml                                |  96 +++++++++++++++------
+ .../com/example/unitconverter/MainActivity.java    |  26 ++++--
+ app/src/main/res/layout/activity_main.xml          |  21 ++++-
+ app/src/main/res/layout/content_main.xml           |  12 +--
+ app/src/main/res/values/strings.xml                |   6 ++
+ 12 files changed, 116 insertions(+), 45 deletions(-)
+
+commit 12629f00a3938477bc246072c3ac985da606a63a
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Fri Sep 6 00:08:09 2019 -0400
+
+    got rid of the button, and lowercased everything
+
+ .../5.4.1/executionHistory/executionHistory.bin    | Bin 1386992 -> 1554137 bytes
+ .../5.4.1/executionHistory/executionHistory.lock   | Bin 17 -> 17 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.bin            | Bin 140483 -> 140533 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.lock           | Bin 17 -> 17 bytes
+ .gradle/5.4.1/javaCompile/classAnalysis.bin        | Bin 99433 -> 114841 bytes
+ .gradle/5.4.1/javaCompile/javaCompile.lock         | Bin 17 -> 17 bytes
+ .gradle/buildOutputCleanup/buildOutputCleanup.lock | Bin 17 -> 17 bytes
+ .idea/workspace.xml                                |  46 ++++++++++-----------
+ app/src/main/res/layout/activity_main.xml          |  18 +++-----
+ app/src/main/res/layout/content_main.xml           |   2 +-
+ 10 files changed, 29 insertions(+), 37 deletions(-)
+
+commit c6e7c6d651492d5213c4e5ca196baf803189c95c
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Thu Sep 5 16:25:10 2019 -0400
+
+    Rounded to two places
+
+ .../5.4.1/executionHistory/executionHistory.bin    | Bin 1386992 -> 1386992 bytes
+ .../5.4.1/executionHistory/executionHistory.lock   | Bin 17 -> 17 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.bin            | Bin 140483 -> 140483 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.lock           | Bin 17 -> 17 bytes
+ .gradle/5.4.1/javaCompile/classAnalysis.bin        | Bin 97895 -> 99433 bytes
+ .gradle/5.4.1/javaCompile/javaCompile.lock         | Bin 17 -> 17 bytes
+ .gradle/buildOutputCleanup/buildOutputCleanup.lock | Bin 17 -> 17 bytes
+ .idea/workspace.xml                                |  42 ++++++++++-----------
+ .../com/example/unitconverter/MainActivity.java    |  13 ++++++-
+ app/src/main/res/layout/activity_main.xml          |  24 ++++++++----
+ 10 files changed, 49 insertions(+), 30 deletions(-)
+
+commit 4d81c30300a13057d9e47ab67fed41a463d775dc
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Wed Sep 4 10:42:02 2019 -0400
+
+    finished CM to IN
+
+ .../5.4.1/executionHistory/executionHistory.bin    | Bin 1386992 -> 1386992 bytes
+ .../5.4.1/executionHistory/executionHistory.lock   | Bin 17 -> 17 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.bin            | Bin 140483 -> 140483 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.lock           | Bin 17 -> 17 bytes
+ .gradle/5.4.1/javaCompile/classAnalysis.bin        | Bin 79308 -> 97895 bytes
+ .gradle/5.4.1/javaCompile/javaCompile.lock         | Bin 17 -> 17 bytes
+ .gradle/buildOutputCleanup/buildOutputCleanup.lock | Bin 17 -> 17 bytes
+ .idea/workspace.xml                                |  76 +++++++++++++--------
+ .../com/example/unitconverter/MainActivity.java    |  16 ++++-
+ app/src/main/res/layout/activity_main.xml          |   6 +-
+ app/src/main/res/layout/content_main.xml           |   4 +-
+ 11 files changed, 66 insertions(+), 36 deletions(-)
+
+commit 55cc1912a681b28e2d3e126451642d4032bfc80f
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Wed Sep 4 02:27:34 2019 -0400
+
+    Gradle change, android studio
+
+ .../5.4.1/executionHistory/executionHistory.lock   | Bin 17 -> 17 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.lock           | Bin 17 -> 17 bytes
+ .gradle/buildOutputCleanup/buildOutputCleanup.lock | Bin 17 -> 17 bytes
+ .idea/workspace.xml                                | 130 +++++++--------------
+ 4 files changed, 40 insertions(+), 90 deletions(-)
+
+commit 92c9a2bcd2f641cb97bc2d072db85a1970fe4fc3
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Fri Aug 30 11:59:36 2019 -0400
+
+    08/30
+    
+    Added convert button and input edit text line
+
+ .../5.4.1/executionHistory/executionHistory.bin    | Bin 1386992 -> 1386992 bytes
+ .../5.4.1/executionHistory/executionHistory.lock   | Bin 17 -> 17 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.bin            | Bin 140483 -> 140483 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.lock           | Bin 17 -> 17 bytes
+ .gradle/5.4.1/javaCompile/classAnalysis.bin        | Bin 0 -> 79308 bytes
+ .gradle/5.4.1/javaCompile/javaCompile.lock         | Bin 17 -> 17 bytes
+ .gradle/buildOutputCleanup/buildOutputCleanup.lock | Bin 17 -> 17 bytes
+ .idea/workspace.xml                                | 234 ++++++++++++++++++++-
+ .../com/example/unitconverter/MainActivity.java    |   4 +-
+ app/src/main/res/layout/activity_main.xml          |  35 ++-
+ app/src/main/res/layout/content_main.xml           |  18 +-
+ 11 files changed, 281 insertions(+), 10 deletions(-)
+
+commit 0fd79ecedee81d5e997cb2552ad9dc884175e16d
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Wed Aug 28 10:38:37 2019 -0400
+
+    First Build
+    
+    With hello world
+
+ .../5.4.1/executionHistory/executionHistory.bin    | Bin 0 -> 1386992 bytes
+ .../5.4.1/executionHistory/executionHistory.lock   | Bin 0 -> 17 bytes
+ .gradle/5.4.1/fileChanges/last-build.bin           | Bin 0 -> 1 bytes
+ .gradle/5.4.1/fileContent/fileContent.lock         | Bin 0 -> 17 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.bin            | Bin 0 -> 140483 bytes
+ .gradle/5.4.1/fileHashes/fileHashes.lock           | Bin 0 -> 17 bytes
+ .gradle/5.4.1/fileHashes/resourceHashesCache.bin   | Bin 0 -> 18565 bytes
+ .gradle/5.4.1/gc.properties                        |   0
+ .gradle/5.4.1/javaCompile/javaCompile.lock         | Bin 0 -> 17 bytes
+ .gradle/5.4.1/javaCompile/taskHistory.bin          | Bin 0 -> 23864 bytes
+ .gradle/buildOutputCleanup/buildOutputCleanup.lock | Bin 0 -> 17 bytes
+ .gradle/buildOutputCleanup/cache.properties        |   2 +
+ .gradle/buildOutputCleanup/outputFiles.bin         | Bin 0 -> 20963 bytes
+ .gradle/vcs-1/gc.properties                        |   0
+ .idea/.name                                        |   1 +
+ .idea/caches/build_file_checksums.ser              | Bin 0 -> 535 bytes
+ .idea/caches/gradle_models.ser                     | Bin 0 -> 151588 bytes
+ .idea/codeStyles/Project.xml                       | 116 ++++++++++++++
+ .idea/gradle.xml                                   |  16 ++
+ .idea/misc.xml                                     |   9 ++
+ .idea/modules.xml                                  |   9 ++
+ .idea/runConfigurations.xml                        |  12 ++
+ .idea/workspace.xml                                |  76 +++++++++
+ Unit Converter.iml                                 |  19 +++
+ app/.gitignore                                     |   1 +
+ app/app.iml                                        | 141 +++++++++++++++++
+ app/build.gradle                                   |  30 ++++
+ app/proguard-rules.pro                             |  21 +++
+ .../unitconverter/ExampleInstrumentedTest.java     |  27 ++++
+ app/src/main/AndroidManifest.xml                   |  24 +++
+ .../com/example/unitconverter/MainActivity.java    |  55 +++++++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  34 ++++
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++++++++
+ app/src/main/res/layout/activity_main.xml          |  33 ++++
+ app/src/main/res/layout/content_main.xml           |  20 +++
+ app/src/main/res/menu/menu_main.xml                |  10 ++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   5 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   5 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.png       | Bin 0 -> 2963 bytes
+ app/src/main/res/mipmap-hdpi/ic_launcher_round.png | Bin 0 -> 4905 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.png       | Bin 0 -> 2060 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher_round.png | Bin 0 -> 2783 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.png      | Bin 0 -> 4490 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    | Bin 0 -> 6895 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.png     | Bin 0 -> 6387 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   | Bin 0 -> 10413 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 9128 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  | Bin 0 -> 15132 bytes
+ app/src/main/res/values/colors.xml                 |   6 +
+ app/src/main/res/values/dimens.xml                 |   3 +
+ app/src/main/res/values/strings.xml                |   4 +
+ app/src/main/res/values/styles.xml                 |  20 +++
+ .../com/example/unitconverter/ExampleUnitTest.java |  17 ++
+ build.gradle                                       |  27 ++++
+ gradle.properties                                  |  20 +++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 54329 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   6 +
+ gradlew                                            | 172 +++++++++++++++++++++
+ gradlew.bat                                        |  84 ++++++++++
+ local.properties                                   |  10 ++
+ settings.gradle                                    |   2 +
+ 61 files changed, 1207 insertions(+)
+
+commit f1ee619833a69426a8096c58bbbf0e09b8a7232a
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Wed Aug 28 10:36:58 2019 -0400
+
+    Created Project
+
+ .../Gradle__androidx_annotation_annotation_1_0_0_jar.xml  | 13 +++++++++++++
+ .../Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml    | 15 +++++++++++++++
+ .../Gradle__androidx_arch_core_core_common_2_0_0_jar.xml  | 11 +++++++++++
+ .../Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml | 12 ++++++++++++
+ ..._asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml | 12 ++++++++++++
+ .../Gradle__androidx_cardview_cardview_1_0_0_aar.xml      | 12 ++++++++++++
+ .../Gradle__androidx_collection_collection_1_0_0_jar.xml  | 11 +++++++++++
+ ...droidx_constraintlayout_constraintlayout_1_1_3_aar.xml | 10 ++++++++++
+ ...constraintlayout_constraintlayout_solver_1_1_3_jar.xml |  9 +++++++++
+ ...oidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml | 15 +++++++++++++++
+ .idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml  | 15 +++++++++++++++
+ ...le__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml | 12 ++++++++++++
+ .../Gradle__androidx_customview_customview_1_0_0_aar.xml  | 12 ++++++++++++
+ ...adle__androidx_documentfile_documentfile_1_0_0_aar.xml | 12 ++++++++++++
+ ...adle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml | 15 +++++++++++++++
+ .../Gradle__androidx_fragment_fragment_1_0_0_aar.xml      | 15 +++++++++++++++
+ ...adle__androidx_interpolator_interpolator_1_0_0_aar.xml | 12 ++++++++++++
+ ...__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml | 12 ++++++++++++
+ ...ndroidx_legacy_legacy_support_core_utils_1_0_0_aar.xml | 12 ++++++++++++
+ ...dle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml | 11 +++++++++++
+ ...e__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml | 12 ++++++++++++
+ ...droidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml | 12 ++++++++++++
+ ...le__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml | 12 ++++++++++++
+ ...__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml | 12 ++++++++++++
+ .../Gradle__androidx_loader_loader_1_0_0_aar.xml          | 12 ++++++++++++
+ ...albroadcastmanager_localbroadcastmanager_1_0_0_aar.xml | 12 ++++++++++++
+ .../libraries/Gradle__androidx_print_print_1_0_0_aar.xml  | 15 +++++++++++++++
+ ...adle__androidx_recyclerview_recyclerview_1_0_0_aar.xml | 15 +++++++++++++++
+ ...oidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml | 12 ++++++++++++
+ ...dx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml | 15 +++++++++++++++
+ ...le__androidx_test_espresso_espresso_core_3_2_0_aar.xml | 14 ++++++++++++++
+ ...x_test_espresso_espresso_idling_resource_3_2_0_aar.xml | 14 ++++++++++++++
+ .../libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml | 14 ++++++++++++++
+ .../libraries/Gradle__androidx_test_runner_1_2_0_aar.xml  | 14 ++++++++++++++
+ .../Gradle__androidx_transition_transition_1_0_0_aar.xml  | 15 +++++++++++++++
+ ...__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml | 12 ++++++++++++
+ ...x_vectordrawable_vectordrawable_animated_1_0_0_aar.xml | 12 ++++++++++++
+ ..._versionedparcelable_versionedparcelable_1_0_0_aar.xml | 12 ++++++++++++
+ .../Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml    | 12 ++++++++++++
+ ...le__com_google_android_material_material_1_0_0_aar.xml | 13 +++++++++++++
+ .../Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml |  9 +++++++++
+ .../Gradle__com_squareup_javawriter_2_1_1_jar.xml         | 13 +++++++++++++
+ .../libraries/Gradle__javax_inject_javax_inject_1_jar.xml | 13 +++++++++++++
+ .idea/libraries/Gradle__junit_junit_4_12_jar.xml          | 13 +++++++++++++
+ .idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml   | 13 +++++++++++++
+ .../Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml        | 13 +++++++++++++
+ .../Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml | 13 +++++++++++++
+ .../Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml     | 13 +++++++++++++
+ .idea/vcs.xml                                             |  6 ++++++
+ 49 files changed, 615 insertions(+)
+
+commit df03a5eb7c23752290774d837f0a2371c972a040
+Author: Henry Chen <hchen113@binghamton.edu>
+Date:   Wed Aug 28 10:29:28 2019 -0400
+
+    Initial commit
+
+ .gitattributes | 2 ++
+ README.md      | 2 ++
+ 2 files changed, 4 insertions(+)
